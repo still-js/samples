@@ -1,0 +1,14 @@
+<div class="task-list">
+	<ol (forEach)="taskList">
+		<li each="item">{item.title} - {item.author} | <a href="#" (click)="removeTask('{item.id}')">Remove</a></li>
+	</ol>
+</div>
+<style>
+	.task-list {
+		border: 1px solid grey;
+		border-radius: 6px;
+		padding: 15px;
+		margin-top: 15px;
+
+	}
+</style>

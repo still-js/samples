@@ -1,0 +1,21 @@
+<div class="main-container">
+	Task number @taskCounter
+	<form onsubmit="javascript: return false;">
+		<input type="text" (value)="taskTitle" placeholder="Enter title">
+		<input type="text" (value)="taskAuthor" placeholder="Enter author name">
+		<button onclick="component.addTaskToList()">Add Task to List</button>
+	</form>
+	<st-element 
+		component="TaskList" 
+		proxy="tListProxy"
+		(removeTask)="removeTaskFromList(id)"
+		></st-element>
+</div>
+<style>
+
+	.main-container{
+		width: 300px;
+		margin: 15px auto;
+	}
+
+</style>

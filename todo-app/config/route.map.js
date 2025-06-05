@@ -10,17 +10,13 @@ export const stillRoutesMap = {
                 path: "app/home",
                 url: "/my-home-page"
             },
-            PersonList: {
-                path: "app/components/person",
-                url: "/person-list"
+            TodoApp: {
+                path: "app/componets/todo/main",
+                url: "/todo-app"
             },
             TaskList: {
-                path: "app/components/todo",
+                path: "app/componets/todo/task",
                 url: "/task-list"
-            },
-            TodoApp: {
-                path: "app/components/todo",
-                url: "/todo-app"
             }
         },
         lazyInitial: {}
