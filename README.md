@@ -8,17 +8,17 @@ The `still-react-demo` is an implementation using the CDN.
 
 #### Running
 
-1. Enter to the in the project which you want to run
+1. Enter to the in the project which you want to run <br>
 `cd react-still-local`
 
 <br>
 
-2. Install the dependencies
+2. Install the dependencies <br>
 `npm i`
 
 <br>
 
-3. Run the react application
+3. Run the react application <br>
 `npm run dev`
 
 <br>
