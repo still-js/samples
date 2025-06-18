@@ -1,0 +1,21 @@
+<div class="itWorked still-worked-home-container">
+    <a href="#" (click)="goto('NovoComponent')">Ir la</a>
+    <div>
+        <img 
+            class="still-fw-logo"
+            src="@still/img/logo-no-bg.png"
+        />
+    </div>
+        <form>
+            <input type="text" (value)="stateVar1">
+        </form>
+        <h2 class="still-fw-before-logo"><u>Defined on the template</u> Still.js Framework @prop1</h2>
+        <h1 onclick="component.hide()">It Worked</h1>
+    <div (showIf)="self.showcontent">
+        <p class="still-home-orientation-text">
+            This is the HomeComponent, you can access it 
+            in the app/home/HomeComponent.js path<br>
+            and do you adjustments accordingly
+        </p>
+    </div>
+</div>
